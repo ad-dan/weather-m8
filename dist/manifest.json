@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "Weather-m8",
+  "version": "1.0.0",
+  "description": "Displays the weather data based on your location",
+  "icons": { "48": "icon.png" },
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html",
+    "default_title": "Weather-m8"
+  },
+  "author": "Aditya Danapurkar"
+}

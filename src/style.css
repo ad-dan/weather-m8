@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  width: 350px;
+  height: 600px;
+  background-color: transparent;
+}
+#container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 350px;
+  height: 600px;
+  color: white;
+  background: black;
+  text-align: center;
+  background: #00d2ff;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #3a7bd5, #00d2ff);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #3a7bd5, #00d2ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+}
+img {
+  width: 50px;
+}
+#loader {
+  justify-self: center;
+  margin: 0 auto;
+  border: 16px solid transparent;
+  border-radius: 50%;
+  border-right: 16px solid #fff;
+  width: 100px;
+  height: 100px;
+  animation: 1s infinite normal spin linear;
+}
+#temp {
+  height: 60px;
+  font-size: 60px;
+  font-weight: lighter;
+  font-family: 'Helvetica','Helvetica Neue', Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  } to {
+    transform: rotate(360deg);
+  }
+}
+#type {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 30px;
+  font-weight: 100;
+  /* margin-top: 300px; */
+}
+#info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 200px;
+}
+#wind {
+  width: 50%;
+  padding: 10px;
+  border-radius: 10px;
+  align-self: center;
+  border: 1px solid white;
+}
+#wind {
+  font-size: 15px;
+}
+#wind-title {
+  line-height: 1;
+  height: 30px;
+  font-size: 25px;
+  font-weight: 300;
+}
+#humidity {
+  font-size: 20px;
+}
+#pressure {
+  font-size: 20px;
+}
+.unit {
+  font-style: italic;
+}
